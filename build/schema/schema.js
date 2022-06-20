@@ -1,27 +1,28 @@
-import { gql } from "apollo-server-core";
-
-const typeDefs = gql`
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const apollo_server_core_1 = require("apollo-server-core");
+const typeDefs = (0, apollo_server_core_1.gql) `
   scalar Date
   type Query {
     hello: String
     categories: [Category!]
     subCategories: [SubCategory!]
-    flashCards(input: sortBy): [FlashCard!]
-    readCategory(id: Int!): Category!
-    readSubCategory(id: Int!): SubCategory!
-    readFlashCard(id: Int!): FlashCard!
+    flashCards: [FlashCard!]
   }
 
   type Mutation {
     addCategory(input: category!): Category
     updateCategory(input: updateCategory): Category!
     deleteCategory(id: Int!): Category!
+    readCategory(id: Int!): Category!
     addSubCategory(input: subCategory!): SubCategory
     updateSubCategory(input: updateSubCategory): SubCategory!
     deleteSubCategory(id: Int!): SubCategory!
+    readSubCategory(id: Int!): SubCategory!
     addFlashCard(input: flashCard): FlashCard
     updateFlashCard(input: updateFlashCard): FlashCard
     deleteFlashCard(id: Int!): FlashCard
+    readFlashCard(id: Int!): FlashCard!
     userRegister(input: userRegister!): User!
     userLogin(input: userLogin): User!
   }
@@ -109,14 +110,5 @@ const typeDefs = gql`
     question: String!
     answer: String!
   }
-  enum order {
-    asc
-    desc
-  }
-  input sortBy {
-    order: order!
-    field: String
-  }
 `;
-
-export default typeDefs;
+exports.default = typeDefs;
