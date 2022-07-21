@@ -18,7 +18,7 @@ In this project i learned essential about typescript and Graphql, how to make au
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Gabin-ishimwe/flashcard-api.git
 ```
 
 Go to the project directory
