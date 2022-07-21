@@ -10,7 +10,7 @@ this is a backend repository of my Flashcard application that i build while i wa
 
 ## Lessons Learned
 
-In this project i learned essential about typescript and Graphql, how to make authentication with Graphql, mutation and queries in graphql. All these concepts helped broaden my knowledge on backend develop with Graphql which is an interesting Technology to use.
+In this project i learned essential about typescript and Graphql, how to make authentication with Graphql, mutation and queries in graphql. All these concepts helped broaden my knowledge on backend develop with Graphql which is an interesting Technology to use. Lastly but not least i learned how to use Prisma as my Database ORM which was very fun and interesting because it provide a GUI to interact with you database, insert, update and delete data.
 
 
 ## Run Locally
