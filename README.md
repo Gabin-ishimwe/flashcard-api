@@ -50,4 +50,3 @@ Here is the Frontend Application of this Backend project where i did the Integra
 ## Demo
 here is the backend url deployed on Heroku:
 https://graphql-flashcard-api.herokuapp.com/graphql
-
