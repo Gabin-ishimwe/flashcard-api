@@ -46,7 +46,6 @@ Here is the Frontend Application of this Backend project where i did the Integra
 
 [Flashcard Application](https://github.com/Gabin-ishimwe/flashcard-api-fe)
 
-
 ## Demo
 here is the backend url deployed on Heroku:
 https://graphql-flashcard-api.herokuapp.com/graphql
